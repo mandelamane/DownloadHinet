@@ -1,0 +1,3 @@
+beautifulesoup4
+configparser
+pyinstaller
