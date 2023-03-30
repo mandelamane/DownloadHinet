@@ -5,18 +5,18 @@ version: 1.0.0
 # config.iniの書き方
 
 [ACCOUNT]
-（必須）UserName: hinetのユーザー名
-（必須）Password: hinetのパスワード
+-（必須）UserName: hinetのユーザー名
+-（必須）Password: hinetのパスワード
 
 [SETTING]
-（必須）DownloadMode: イベント波形のみのダウンロードの場合は"event"、検測ファイルのみのダウンロード場合は"kensoku"、ともにダウンロードする場合は"both"と記述
-（eventモードのとき必須）EventList: 頭文字がJで始めるイベントの発生時間が記載されたファイルのパス
-（eventモードのとき必須）EventFileSaveDir: イベントファイルを保存するディレクトリ、新規作成されるため事前に作っておく必要はない
-（kensokuモードのとき必須）KensokuSaveDir: 検測ファイルを保存するディレクトリ、新規作成されるため事前に作っておく必要はない
+-（必須）DownloadMode: イベント波形のみのダウンロードの場合は"event"、検測ファイルのみのダウンロード場合は"kensoku"、ともにダウンロードする場合は"both"と記述
+-（eventモードのとき必須）EventList: 頭文字がJで始めるイベントの発生時間が記載されたファイルのパス
+-（eventモードのとき必須）EventFileSaveDir: イベントファイルを保存するディレクトリ、新規作成されるため事前に作っておく必要はない
+-（kensokuモードのとき必須）KensokuSaveDir: 検測ファイルを保存するディレクトリ、新規作成されるため事前に作っておく必要はない
 
 [KENSOKUFILE_DATE]
-（kensokuモードのとき必須）T1: ダウンロードしたい検測ファイルの開始日時
-（kensokuモードのとき必須）T2: ダウンロードしたい検測ファイルの終了日時
+-（kensokuモードのとき必須）T1: ダウンロードしたい検測ファイルの開始日時
+-（kensokuモードのとき必須）T2: ダウンロードしたい検測ファイルの終了日時
 
 ## 使い方
 1. config.iniの中身を任意の値に変更
